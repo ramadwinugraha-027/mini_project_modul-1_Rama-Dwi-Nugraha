@@ -346,3 +346,54 @@ a:focus-visible,
 .site-end p {
   margin: 0;
 }
+
+@media (min-width: 768px) {
+  .nav-layout {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-links {
+    justify-content: flex-end;
+  }
+
+  .about-grid {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about-desc,
+  .about-figure {
+    flex: 1;
+  }
+
+  .card-track {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .board {
+    flex: 1;
+  }
+
+  .info-banner {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .banner-body {
+    flex: 1;
+  }
+
+  .banner-action {
+    flex-shrink: 0;
+  }
+
+  .end-layout {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
